@@ -2,7 +2,7 @@ name: "Build and Deploy"
 on:
   push:
     branches:
-      - gh-pages
+      - docpage
     paths-ignore:
       - .gitignore
       - README.md
