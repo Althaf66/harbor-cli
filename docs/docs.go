@@ -49,6 +49,10 @@ func preblock(filename string) string {
 }
 
 func main(){
+    Doc()
+  }
+
+func Doc(){
 	currentDir, err := os.Getwd()
 	if err != nil {
 		fmt.Println(err)
